@@ -1,0 +1,75 @@
+	
+		body{
+				background-color: fuchsia;
+				margin-top: 100px;
+				margin-left: 250px;
+				margin-right: 300px;
+				background-image:  url(img1.jpg);
+				background-repeat: repeat-x;
+		}
+
+		#container {
+			border: 1px solid gray;
+			background-color: silver;
+			margin: none;
+			padding: none;
+			font-style: oblique;
+			font-family: cursive;
+		}
+
+		#header {
+					border: 1px solid gray;
+					font-style: italic;
+					width: inherit;
+					height: 40%;
+					font-weight: bold;
+					font-family: sans-serif;
+					margin-top:  inherit;
+					text-align: center;
+					background-color: gray;
+		}
+		form > label {
+							margin: 10%;
+							font-weight: bold;
+							font-style: italic;
+							text-align: justify-all;
+							padding: 10px;
+		}
+		form > input[type="text"] {
+						width: 70%;
+						position: relative;
+						margin: 5px 20px ;
+						padding: 12px 20px;
+						color: teal;
+						border-radius: 7px;
+						-mov-border-radius: 7px;
+						-webkit-border-radius: 7px;
+						box-shadow: 5px 5px 8px teal;
+						-mov-box-shadow:5px 5px 8px teal;
+						-webkit-box-shadow: 5px 5px 8px teal;
+		}
+		form > input[type="button"] {
+				width: 70%;
+				padding: 12px 20px;
+				margin: 3px 30px ;
+				cursor: pointer;
+				font-style: italic;
+				background-color: olive;
+				border-radius: 10px;
+		}
+			/*.lst {
+				 text-transform: uppercase;
+				 text-decoration: underline;
+				 font-family: Courier;
+				 word-spacing: 1px;
+				 color: maroon;
+			}*/
+		 li {
+			list-style-type:  none;
+			font-style: oblique;
+			font-weight: bold;
+			text-indent: 80px;
+			text-align: justify;
+		}
+
+		
